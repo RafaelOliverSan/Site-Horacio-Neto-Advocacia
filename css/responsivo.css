@@ -1,4 +1,5 @@
 @media (max-width: 1278px) {
+
   h1.titulo-section {
     font-size: 2rem;
   }
@@ -12,8 +13,8 @@
     position: fixed;
   }
 
-  header.logotipo-cabecalho img {
-    max-width: 200px;
+  header .logotipo-cabecalho img {
+    max-width: 120px;
   }
 
   .menu-dasktop {
@@ -172,12 +173,12 @@
   /* section.localizacao {
   padding: 80px 0;
   background-color: var(--fundoSecundario);
-  
-} */
-  /* 
-.localizacao > .mapa{
-  display: flex;
-} */
+    
+  } */
+    /* 
+  .localizacao > .mapa{
+    display: flex;
+  } */
 
   section.localizacao .mapa {
     /* display: flex; */
@@ -187,8 +188,7 @@
   }
 
   section.localizacao .mapa iframe {
-    width: 360px;
-    height: 300px;
+   width: 100%;
     /* border-radius: 6px;
   box-shadow: -1px 6px 41px 2px rgba(0, 0, 0, 0.51);
    border: solid 2px var(--corBTN); */
@@ -196,11 +196,12 @@
 
   section.localizacao .mapa article {
     margin-bottom: 30px;
+    
   }
 
   /* section.localizacao  h1 {
   margin-bottom: 40px;
-} */
+  } */
 
   /* .localizacao .mapa p {
   display: flex;
@@ -210,13 +211,13 @@
   font-weight: 300;
   margin-top: 5px;
   
-} */
+  } */
 
   /* .localizacao .mapa p i{
   color: var(--corBTN);
   font-size: 2rem;
   margin-right: 5px;
-} */
+  } */
 
   /* ESTILO SEÇÃO CONTATO */
   /* section.contato {
@@ -231,7 +232,7 @@
     gap: 32px;
     flex-direction: column;
   }
-/* 
+  /* 
   .contato .txt-contato p {
     color: var(--corBranco);
     font-size: 1.2rem;
@@ -295,17 +296,17 @@
 
 
   /* ESTILO FOOTER */
-/* footer {
-  padding: 40px 0;
-  background-color: var(--escuro);
-} */
+  /* footer {
+    padding: 40px 0;
+    background-color: var(--escuro);
+  } */
 
-/* footer .logo-footer img {
-  max-width: 160px;
-  margin-bottom: 0px;
-} */
+  /* footer .logo-footer img {
+    max-width: 160px;
+    margin-bottom: 0px;
+  } */
 
-footer > .interface {
+  footer > .interface {
   /* display: flex;
   justify-content: space-between;
   align-items: center;
@@ -314,20 +315,42 @@ footer > .interface {
   flex-direction: column-reverse;
   gap: 32px;
   text-align: center;
-}
+  }
 
-/* footer .btn-redes button {
+  /* footer .btn-redes button {
   width: 56px;
   height: 56px;
   font-size: 24px;
   margin-right: 8px;
   color: var(--corBranco);
   border: solid 1px var(--corBranco);
-} */
-/* 
-footer .btn-redes button:hover {
+  } */
+  /* 
+  footer .btn-redes button:hover {
   color: var(--escuro);
   background-color: var(--corBranco);
 
+  } */
+
+
+  /* efeito rolagem */
+/* header.rolagem {
+  background-color: #ffffff;
+  padding: 2px 4%;
+  box-shadow: 0px 18px 23px -20px rgba(30, 30, 32, 1);
 } */
+/* 
+header.rolagem .menu-dasktop a {
+  color: var(--corBTN);
+} */
+
+/* header.rolagem .menu-dasktop button {
+  color: var(--corBranco);
+  background-color: #413d38;
+} */
+
+header.rolagem .logotipo-cabecalho img{
+  max-width: 120px;
+}
+
 }

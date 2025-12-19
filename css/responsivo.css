@@ -19,6 +19,11 @@
     display: none;
   }
 
+  .btn-menu-mobile, .menu-mobile{
+  display: block;
+}
+
+
   /* ESTILO DA HERO */
   section.hero {
     background-image: var(--fundo);

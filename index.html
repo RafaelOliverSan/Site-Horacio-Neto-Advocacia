@@ -19,6 +19,7 @@
 
 
   <script src="js/menu.js"></script>
+  <script src="js/mensagem.js"></script>
 
   <title>Dr Horácio Neto Advocacia</title>
 </head>
@@ -33,11 +34,11 @@
       <nav class="menu-dasktop">
         <ul>
           <li><a href="index.html">Início</a></li>
-          <li><a href="#">Sobre</a></li>
-          <li><a href="#">Área de atuação</a></li>
-          <li><a href="#">Localização</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#skills">Área de atuação</a></li>
+          <li><a href="#localizacao">Localização</a></li>
           <li>
-            <a href=""><button>Contato</button></a>
+            <a href="#contato"><button>Contato</button></a>
           </li>
         </ul>
       </nav>
@@ -68,7 +69,7 @@
       </div>
     </section>
 
-    <section class="sobre-mim">
+    <section class="sobre-mim" id="sobre">
       <div class="interface">
         <div class="txt-sobre">
           <h1 class="titulo-section">
@@ -107,7 +108,7 @@
       </div>
     </section>
 
-    <section class="skills">
+    <section class="skills" id="skills">
       <div class="interface">
         <h1 class="titulo-section">
           Área de atuação <span>FULL-SERVICE.</span>
@@ -206,7 +207,7 @@
       </div>
     </section>
 
-    <section class="localizacao">
+    <section class="localizacao" id="localizacao">
 
       <div class="interface">
 
@@ -268,15 +269,9 @@
           <p><i class="bi bi-whatsapp"></i>(11) 99999-99-99</p>
         </div>
 
-        <form action="#">
+        <form id="contato"  onsubmit="enviarWhatsApp(event)">
           <input type="text" name="#" id="nome" placeholder="Digite seu nome:" required>
-          <!-- <input type="email" name="#" id="email" placeholder="Digite seu email:"> -->
-
-          <!-- <div class="tel-proj">
-            <input type="tel" name="#" id="telefone" placeholder="Digite seu WhatsApp:">
-            <input type="text" name="#" id="projeto" placeholder="Qual projeto quer criar?">
-          </div> -->
-
+         
           <textarea name="#" id="mensagem" placeholder="Deixe sua mensagem e entraremos em contato o mais rápido possivel:" required></textarea>
 
           <div class="btn-enviar">
@@ -285,12 +280,9 @@
 
         </form>
 
-
-
       </div>
 
     </section>
-
 
   </main>
 
